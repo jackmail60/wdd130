@@ -1,11 +1,11 @@
 body 
     nav,footer {background-color: steelblue;
         color: white;
-    background-color: steelblue;
+    background-color: rgb(70, 149, 180);
     padding: 10px;
     }
     nav, footer { text-align: center;
-        background-color: steelblue;
+        background-color: rgb(70, 136, 180);
         color: white;
         padding: 10px;
     }
