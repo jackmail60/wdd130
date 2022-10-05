@@ -1,16 +1,21 @@
-body {
-    text-align: center;
-    }
-    nav {
+body 
+    nav,footer {background-color: steelblue;
+        color: white;
     background-color: steelblue;
     padding: 10px;
+    }
+    nav, footer { text-align: center;
+        background-color: steelblue;
+        color: white;
+        padding: 10px;
     }
     a {
     color: white;
     margin: 40px;
     }
     h1 {
-    color: steelblue;
+        text-align: center;
+      color: steelblue;
     }
     img {
     width: 800px;
@@ -26,7 +31,19 @@ body {
         background-color: white;
         color: steelblue;
     }
-    footer {
-    background-color: steelblue;
-    color: white;
+       
+     a:hover {
+            background-color: white;
+            color: steelblue;
+    } 
+    img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
+    main p {
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
