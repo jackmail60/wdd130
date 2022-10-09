@@ -30,17 +30,19 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
 }
 img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100px;
-  text-align: center
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    style=;text-align:center
+    }
+ 
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -129,7 +131,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
   background-color: black;
-  color: #d9c2a3;
+  color: #d9c2a3; 
 }
   .sitemap {
   display: grid;
@@ -186,4 +188,8 @@ body {
   background-color: #fcfbfb; 
 }
 header {
-  background-color:rgba(20,30,13, .7);
+  background-color:rgba(20,30,13, .7);}
+.icon {
+    width: 80px;
+}
+            
