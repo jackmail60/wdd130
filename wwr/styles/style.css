@@ -1,0 +1,33 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }h1 
+  {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+p {
+    text-align:center;
+}
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+} 
+ footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}     
