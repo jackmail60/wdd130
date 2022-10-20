@@ -1,29 +1,37 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #396E94   ;
+    --secondary-color: #E7C24F ;
+    --accent1-color: #A42212;
+}
+
 body {
     max-width: 1600px;
     margin: 0 auto;
     padding: 0em;
     font-size: 22px;
-    background-color: white; 
+    background-color:lightblue; 
     }
 
-    
-    nav a{padding: 35px;
-        background-color: white;
-        color: black;
-        text-align: center;
-        color: black;
-        text-decoration: none;
-    }
-
-     nav a:hover{
-    background-color: white;
+nav {
+    background-color:blueviolet;
+    padding: 100px;
+}
+nav a{
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+    nav a:hover{
+    background-color:lightblue;
    color : black;
 }
 .home-title{
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
-    background-color:white;
+    background-color:lightblue;
     color:black;
 }
 H1{color:black;
@@ -31,45 +39,51 @@ text-align: center;}
 h2{margin: 0;}
 
 h4{
-    background-color: white;
+    background-color:lightblue;
     color: black;
 }
 .book, .join{
-    background-color: #d9c2a3;
+    background-color:bisque;
     color: black;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-align: center;
 
 }
 .book:hover, .join:hover{
     background-color: black;
-    color: gray;
+    color: blueviolet;
 }
-.msg{ background-color: #6f7364;
+.msg{ background-color:blueviolet;
     line-height: 1.5em;
     padding: 35px;
+    text-align: center;
     }
 .msg h2{
-    background-color:white;
+    background-color:blueviolet;
     color: black;
 }
 .msg p{font-size: 1em;
     padding-bottom: 15px;
-    background-color:gray;
+    background-color:blueviolet;
+    text-align: left;
     color:black; }
 .rivers-card, .camping-card, .rapids-card
-{margin:200px 0;}
+{
+    text-align: center;
+    margin:200px 0;
+}
     
 footer{margin-top: 200px;
-    background-color: gray;
+    background-color:blueviolet;
     color: black;
     padding: 25px 50px;
 }
 footer a{
-    background-color: gray;
+    background-color:blueviolet ;
     color: black;
     text-align: center;
     color:black;
@@ -78,7 +92,7 @@ footer a{
 footer a:hover{
     margin: auto;
     padding: 15px;
-    background-color: gray;
+    background-color: blue;
     color: black;
    } 
     footer p {
@@ -86,10 +100,14 @@ footer a:hover{
     }       
    footer.social img{
     padding: 15px;}
+    #hero-msg {
+        text-align: center;
+    }
     #hero-img {
         width: 100%; } 
-.logo{
+.logo{  margin:0px;
         width: 80px;
+        padding: top 1px;;
     }
 #logo_link   {
     padding-top: 5px;
@@ -100,9 +118,9 @@ footer a:hover{
     padding: 10px;
     line-height: 1.5em;
 }
-.card-img {
-    border: 10px solid #d9c2a3;
-}
+.card-img {border: 10px solid blue;
+    
+}  
 main section img {
     box-sizing: border-box;
 }
@@ -110,15 +128,9 @@ main section img {
     margin: 35px;
     max-width: 1600px;}
 
-div{border: 1px solid black;
-     background-color: white;
-     text-align: center;
-     margin: 35px;
-    }
-div.a {
-    text-align: center;
-  }
  
   #background {
-    height: 725px;} 
+    height: 725px;
+    background-color:blue;
+} 
 
